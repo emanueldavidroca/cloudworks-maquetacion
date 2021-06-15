@@ -1,0 +1,255 @@
+.rounded-4{
+	border-radius: 0.4rem !important;
+}
+.rounded-5{
+	border-radius: 0.5rem !important;
+}
+.fs-7{
+    font-size: 0.94rem !important;
+}
+.fs-8{
+    font-size: 0.86rem !important;
+}
+.fs-9{
+    font-size: 0.74rem !important;
+}
+.ps-6{
+	padding-left: 5rem;
+}
+.pe-6{
+	padding-right: 5rem;
+}
+.pt-6{
+	padding-top: 5rem;
+}
+.pb-6{
+	padding-bottom: 5rem;
+}
+.text-cloudworks{
+	color: #0068C9 !important;
+}
+.btn-cloudworks{
+	background-color: #0068C9 !important;
+	border-color:#0068C9 !important;
+	color: white;
+}
+.bg-cloudworks{
+	background-color:#0068C9 !important;
+}
+.border-cloudworks{
+	border-color:#0068C9 !important;
+}
+.carousel-indicators [data-bs-target]{
+	border-radius: 100%;
+	background-color:#0068C9;
+	border-color: #0068C9;
+	padding:5px !important;
+	margin-right: 7px;
+}
+#section-carrousel .carousel-caption{
+	height: 100%;
+	display: flex !important;
+	justify-content: flex-start;
+	align-items: center;
+	left:8%;
+}
+#section-carrousel .carousel-caption h5{
+	font-size:6.5rem !important;
+	line-height: 6rem !important;
+}
+#section-carrousel .carousel-caption p{
+	font-size:4rem !important;
+
+}
+.carousel-caption > div {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+@font-face{
+	font-family: montserrat-bold;
+	src:url(../fonts/Montserrat-Bold.otf);
+}
+@font-face{
+	font-family: lato-light;
+	src:url(../fonts/Lato-Light.ttf);
+}
+@font-face{
+	font-family: lato-regular;
+	src:url(../fonts/Lato-Regular.ttf);
+}
+.montserrat-bold{
+	font-family: montserrat-bold;
+}
+.lato-light{
+	font-family: lato-light;
+}
+.lato-regular{
+	font-family: lato-regular;
+}
+.title-lg{
+	font-size:4rem !important;
+}
+.title-md{
+	font-size:2.3rem !important;
+}
+/*VIDEO*/
+.video-wrapper video{
+	position: absolute;
+	right: -80px;
+	top: 40px;
+}
+.video-wrapper{
+	position: relative;
+}
+/*POTENCIAMOS TU NEGOCIO*/
+#section-potenciamos-negocio .tittle {
+	font-family: montserrat-bold; color:#0068C9;
+	font-size: 40px;
+}
+
+#section-potenciamos-negocio .copy {
+	font-family: lato-light; color: black;
+	font-size: 31px;
+}
+
+#section-potenciamos-negocio .calltoaction {
+	font-family: lato-regular; color: black;
+	font-weight: bold;
+	font-size: 31px;
+}
+/*QUIENES SOMOS*/
+/*Alfred*/
+#section-quienes-somos h4 {
+	font-family: montserrat-bold; color: white; 	
+	font-size: 41px;
+}
+#section-quienes-somos p {
+	font-family: lato-light; color: white; 	
+	font-size: 27px;
+}
+
+#section-quienes-somos button {
+	border-color: #0068C9;
+	background-color:#0068C9;
+	border-color: white;
+	border-radius: 8px;
+	box-sizing: border-box;
+	font-family: lato-light; color: white; 
+	padding-bottom: 2px;
+}
+  
+#section-quienes-somos button:hover {
+	background: #2a5eeece;
+	color: #fff;
+}
+/*-Alfred fin-*/
+#section-quienes-somos.container-fluid{
+	background-size: contain;
+    background-image: url('../images/quienes somos.png') !important;
+    min-height: 400px !important;
+    background-repeat: no-repeat;
+    background-position-x:right;
+}
+#section-quienes-somos{
+	margin-top: 100px;
+}
+/*CLIENTES*/
+.slick-clientes img{
+	width: 65%;
+	margin: auto;
+}
+.slick-clientes{
+	display: block;
+}
+#section-clientes{
+	margin-top: 50px;
+	position: relative;
+}
+#section-clientes .slick-initialized .slick-slide {
+    display: flex !important;
+    height: 150px !important;
+    align-items: center !important;
+}
+#section-clientes .slick-slide.slick-cloned{
+	display: flex !important;
+}
+.section-clientes-wrapper{
+	position: relative;
+}
+.prev{
+	position: absolute;
+	left: -5%;
+	top: 65px;
+}
+.next{
+	position: absolute;
+	right: -5%;
+	top: 65px;
+}
+/*TESTIMONIOS*/
+#section-testimonios{
+	margin-top: 50px;
+	min-height: 350px;
+}
+.slick-testimonios > div{
+	height: 300px;
+}
+.slick-testimonios img{
+	width: 80%;
+	margin: auto;
+	opacity: 0.7;
+}
+.slick-testimonios .slick-center img{
+	width: 100%;
+	opacity: 1;
+}
+.slick-testimonios .slick-track {
+	display: flex;
+	align-items: flex-end;
+}
+/*CONTACTANOS*/
+#section-contactanos{
+	background-image: url(../images/contacto.png);
+	background-size: contain;
+    
+    background-repeat: no-repeat;
+    background-position-x:right;
+}
+#section-contactanos .container,#section-contactanos .row{
+	min-height: 500px !important;
+}
+#section-contactanos h3{
+	font-size: 2.1rem;
+	margin-bottom: 15px;
+}
+#section-contactanos p{
+	font-size: 1.35rem;
+}
+/*NOTICIAS*/
+#section-noticias .card-text{
+	color: #717171;
+}
+
+#section-noticias .card-content{
+  	min-height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+#section-noticias .card{
+	box-shadow: 0px 0px 10px #2C2C2C;
+	min-height: 500px;
+	height: 500px;
+
+}
+#section-noticias .card-img-top{
+	height: 185px;
+}
+/*FOOTER*/
+#footer .row .col-md-3 > div > p{
+	color:#AFAFAF;
+}
+#footer .links a{
+	text-decoration: none;
+	color:#C5C5C5;
+}
