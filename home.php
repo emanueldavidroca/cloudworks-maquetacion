@@ -1,7 +1,7 @@
 <?php require_once("header.html"); ?>
 <script src="js/slickslider.js" defer></script>
 
-<div class="container-fluid" id="section-carrousel">
+<div class="container-fluid" id="section-carousel">
 	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 	  <div class="carousel-indicators">
 	    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active btn" aria-current="true" aria-label="Slide 1"></button>
@@ -17,41 +17,41 @@
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h5>
 
 
-		        <span class="text-dark title-md lato-regular">Creamos sitios web</span>
-		        <span class="text-dark title-md lato-regular">y aplicaciones</span>
+		        <span class="text-dark title-md fw-normal lato-light">Creamos sitios web</span>
+		        <span class="text-dark title-md fw-normal lato-light">y aplicaciones</span>
 
 		        <div class="mt-4">
-		        	<button class="btn btn-cloudworks text-light">Ver mas</button>
+		        	<button class="btn btn-cloudworks fs-5 text-light">Ver más</button>
 		        </div>
 	      	</div>
 	      </div>
 	    </div>
-	    <div class="carousel-item active">
+	    <div class="carousel-item">
 	      <img src="images/header.png" class="d-block w-100" alt="...">
 	      <div class="carousel-caption d-none d-md-block">
 	      	<div class="text-start">
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h5>
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h5>
 
-		        <span class="text-dark title-md lato-regular">Creamos sitios web</span>
-		        <span class="text-dark title-md lato-regular">y aplicaciones</span>
+		        <span class="text-dark title-md lato-light">Creamos sitios web</span>
+		        <span class="text-dark title-md lato-light">y aplicaciones</span>
 		        <div class="mt-4">
-		        	<button class="btn btn-cloudworks text-light">Ver mas</button>
+		        	<button class="btn btn-cloudworks fs-5 text-light">Ver mas</button>
 		        </div>
 	      	</div>
 	      </div>
 	    </div>
-	    <div class="carousel-item active">
+	    <div class="carousel-item">
 	      <img src="images/header.png" class="d-block w-100" alt="...">
 	      <div class="carousel-caption d-none d-md-block">
 	      	<div class="text-start">
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h5>
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h5>
 
-		        <span class="text-dark title-md lato-regular">Creamos sitios web</span>
-		        <span class="text-dark title-md lato-regular">y aplicaciones</span>
+		        <span class="text-dark title-md lato-light">Creamos sitios web</span>
+		        <span class="text-dark title-md lato-light">y aplicaciones</span>
 		        <div class="mt-4">
-		        	<button class="btn btn-cloudworks text-light">Ver mas</button>
+		        	<button class="btn btn-cloudworks fs-5 text-light">Ver mas</button>
 		        </div>
 	      	</div>
 	      </div>
@@ -67,12 +67,15 @@
 	  </button>
 	</div>
 </div>
+<script>
+	
+</script>
 <div class="container-fluid pe-6 mt-4" id="section-potenciamos-negocio">
 	<div class="row">
 		
 		<div class="col-md-7 ">
 			<div class="row p-0">
-				<div class="col-md-9 bg-cloudworks" style="min-height: 550px">
+				<div class="col-md-9 bg-cloudworks" style="min-height: 500px">
 					<div class="video-wrapper">
 						
 						<video width="700px" controls style="">
@@ -83,7 +86,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-5 text-end d-flex align-items-end" style="flex-direction: column;justify-content: center">
+		<div class="col-md-5 text-end d-flex align-items-end text" style="flex-direction: column;justify-content: center">
 		<p class="tittle">Potenciamos tu negocio <br>
 		con soluciones inteligentes</p>
 
@@ -92,6 +95,7 @@
 		
 		<p class="calltoaction">¡Tomemos un café virtual y veamos <br>	
 		qué podemos hacer por vos!</p>
+		<div class="barra-azul"></div>
 		</div>
 	</div>
 </div>
@@ -104,7 +108,7 @@
 				</h4>
 				<p>El rocket Team de Cloudworks es un 
 				desprendimiento	del Holding Connaxis especializada en dos unidades de negocio: Desarrollo Web y Consultoría Digital.</p>
-				<button>Segui leyendo</button>
+				<button>Seguír leyendo</button>
 			</div>
 		</div>
 	</div>

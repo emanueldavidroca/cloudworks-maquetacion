@@ -40,24 +40,28 @@
 	border-color:#0068C9 !important;
 }
 .carousel-indicators [data-bs-target]{
+	border-top: none !important;
+    border-bottom: none !important;
+    height: 20px !important;
+    width: 20px !important;
 	border-radius: 100%;
 	background-color:#0068C9;
 	border-color: #0068C9;
 	padding:5px !important;
 	margin-right: 7px;
 }
-#section-carrousel .carousel-caption{
+#section-carousel .carousel-caption{
 	height: 100%;
 	display: flex !important;
 	justify-content: flex-start;
 	align-items: center;
 	left:8%;
 }
-#section-carrousel .carousel-caption h5{
+#section-carousel .carousel-caption h5{
 	font-size:6.5rem !important;
 	line-height: 6rem !important;
 }
-#section-carrousel .carousel-caption p{
+#section-carousel .carousel-caption p{
 	font-size:4rem !important;
 
 }
@@ -117,6 +121,14 @@
 	font-weight: bold;
 	font-size: 31px;
 }
+#section-potenciamos-negocio p{
+	line-height: 36px;
+}
+#section-potenciamos-negocio .barra-azul{
+	height: 10px;
+	width: 140px;
+	background-color: #0068C9;
+}
 /*QUIENES SOMOS*/
 /*Alfred*/
 #section-quienes-somos h4 {
@@ -124,7 +136,8 @@
 	font-size: 41px;
 }
 #section-quienes-somos p {
-	font-family: lato-light; color: white; 	
+	font-family: lato-light;
+	color: white; 	
 	font-size: 27px;
 }
 
@@ -251,5 +264,8 @@
 }
 #footer .links a{
 	text-decoration: none;
-	color:#C5C5C5;
+	color:white;
+}
+#footer{
+	padding-top: 30px;
 }
