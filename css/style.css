@@ -1,44 +1,26 @@
-.rounded-4{
-	border-radius: 0.4rem !important;
+/*FUENTES*/
+@font-face{
+	font-family: montserrat-bold;
+	src:url(../fonts/Montserrat-Bold.otf);
 }
-.rounded-5{
-	border-radius: 0.5rem !important;
+@font-face{
+	font-family: lato-light;
+	src:url(../fonts/Lato-Light.ttf);
 }
-.fs-7{
-    font-size: 0.94rem !important;
+@font-face{
+	font-family: lato-regular;
+	src:url(../fonts/Lato-Regular.ttf);
 }
-.fs-8{
-    font-size: 0.86rem !important;
+.montserrat-bold{
+	font-family: montserrat-bold;
 }
-.fs-9{
-    font-size: 0.74rem !important;
+.lato-light{
+	font-family: lato-light;
 }
-.ps-6{
-	padding-left: 5rem;
+.lato-regular{
+	font-family: lato-regular;
 }
-.pe-6{
-	padding-right: 5rem;
-}
-.pt-6{
-	padding-top: 5rem;
-}
-.pb-6{
-	padding-bottom: 5rem;
-}
-.text-cloudworks{
-	color: #0068C9 !important;
-}
-.btn-cloudworks{
-	background-color: #0068C9 !important;
-	border-color:#0068C9 !important;
-	color: white;
-}
-.bg-cloudworks{
-	background-color:#0068C9 !important;
-}
-.border-cloudworks{
-	border-color:#0068C9 !important;
-}
+/*ESTILOS */
 .carousel-indicators [data-bs-target]{
 	border-top: none !important;
     border-bottom: none !important;
@@ -69,27 +51,7 @@
 	display: grid;
 	grid-template-columns: 1fr;
 }
-@font-face{
-	font-family: montserrat-bold;
-	src:url(../fonts/Montserrat-Bold.otf);
-}
-@font-face{
-	font-family: lato-light;
-	src:url(../fonts/Lato-Light.ttf);
-}
-@font-face{
-	font-family: lato-regular;
-	src:url(../fonts/Lato-Regular.ttf);
-}
-.montserrat-bold{
-	font-family: montserrat-bold;
-}
-.lato-light{
-	font-family: lato-light;
-}
-.lato-regular{
-	font-family: lato-regular;
-}
+
 .title-lg{
 	font-size:4rem !important;
 }
@@ -97,12 +59,12 @@
 	font-size:2.3rem !important;
 }
 /*VIDEO*/
-.video-wrapper video{
+#section-potenciamos-negocio .video-wrapper video{
 	position: absolute;
 	right: -80px;
 	top: 40px;
 }
-.video-wrapper{
+#section-potenciamos-negocio .video-wrapper{
 	position: relative;
 }
 /*POTENCIAMOS TU NEGOCIO*/
@@ -167,11 +129,11 @@
 	margin-top: 100px;
 }
 /*CLIENTES*/
-.slick-clientes img{
+.slick-clientes-1 img,.slick-clientes-2 img{
 	width: 65%;
 	margin: auto;
 }
-.slick-clientes{
+.slick-clientes-1,.slick-clientes-2{
 	display: block;
 }
 #section-clientes{
@@ -189,15 +151,24 @@
 .section-clientes-wrapper{
 	position: relative;
 }
-.prev{
+.prev-1,.prev-2,.next-1,.next-2{
 	position: absolute;
+}
+.prev-1{
 	left: -5%;
 	top: 65px;
 }
-.next{
-	position: absolute;
+.next-1{
 	right: -5%;
 	top: 65px;
+}
+.prev-2{
+	left: -5%;
+	top: 200px;
+}
+.next-2{
+	right: -5%;
+	top: 200px;
 }
 /*TESTIMONIOS*/
 #section-testimonios{
@@ -268,4 +239,29 @@
 }
 #footer{
 	padding-top: 30px;
+}
+
+/*SOBRE NOSOTROS*/
+#hero-sobre-nosotros h1{
+	font-size: 6.8rem;
+	line-height: 5.6rem;
+	font-weight: bolder;
+
+}
+#section-caracteristicas h3 .number{
+	font-size: 3.5rem;
+}
+#section-caracteristicas{
+	color: #9DAEC4;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/*VIDEO-PORQUE-TRABAJO*/
+#section-porque-trabajar .video-wrapper video{
+	position: absolute;
+	right: 150px;
+	top: 50px;
+}
+#section-porque-trabajar .video-wrapper{
+	position: relative;
 }

@@ -118,7 +118,7 @@
 	<p class="text-cloudworks montserrat-bold fs-2">Clientes</p>
 	<div class="section-clientes-wrapper">
 		<button class="prev btn"><i class="fa fa-chevron-left"></i></button>
-		<div class="slick-clientes">
+		<div class="slick-clientes-1">
 			<div><img src="images/logos home clientes/0.png" alt=""></div>
 			<div><img src="images/logos home clientes/1024px-Logo_Tigo.svg.png" alt=""></div>
 			<div><img src="images/logos home clientes/1264px-Grupo_Clarín_logo.svg.png" alt=""></div>
@@ -127,6 +127,20 @@
 			<div><img src="images/logos home clientes/630018247b6f7c05d9fa7afd2a659ff7.png" alt=""></div>
 			<div><img src="images/logos home clientes/connaxis-hosting-control-logo.png" alt=""></div>
 			<div><img src="images/logos home clientes/facebook-business.png" alt=""></div>
+			<div><img src="images/logos home clientes/gsuite-transparent.png" alt=""></div>
+			<div><img src="images/logos home clientes/LivePerson-1.png" alt=""></div>
+			<div><img src="images/logos home clientes/logo-schneider-electric-2.png" alt=""></div>
+			<div><img src="images/logos home clientes/marketo.png" alt=""></div>
+			<div><img src="images/logos home clientes/ntitle-logo.jpg" alt=""></div>
+			<div><img src="images/logos home clientes/orbis.jpg" alt=""></div>
+			<div><img src="images/logos home clientes/porsperworks.png" alt=""></div>
+			<div><img src="images/logos home clientes/skymax.png" alt=""></div>
+			<div><img src="images/logos home clientes/Universal_Pictures_Bylineless_Logo.svg" alt=""></div>
+			<div><img src="images/logos home clientes/unnamed.gif" alt=""></div>
+			<div><img src="images/logos home clientes/unnamed.png" alt=""></div>
+			<div><img src="images/logos home clientes/VV-logo-website.png" alt=""></div>
+			<div><img src="images/logos home clientes/wisboo-logo-bg-white.png" alt=""></div>
+			<div><img src="images/logos home clientes/xlogo_salud.png.pagespeed.ic.MNfALR1x9k.png" alt=""></div>
 		</div>
 		<button class="next btn"><i class="fa fa-chevron-right"></i></button>
 	</div>

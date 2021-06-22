@@ -1,0 +1,41 @@
+.rounded-4{
+	border-radius: 0.4rem !important;
+}
+.rounded-5{
+	border-radius: 0.5rem !important;
+}
+.fs-7{
+    font-size: 0.94rem !important;
+}
+.fs-8{
+    font-size: 0.86rem !important;
+}
+.fs-9{
+    font-size: 0.74rem !important;
+}
+.ps-6{
+	padding-left: 5rem;
+}
+.pe-6{
+	padding-right: 5rem;
+}
+.pt-6{
+	padding-top: 5rem;
+}
+.pb-6{
+	padding-bottom: 5rem;
+}
+.text-cloudworks{
+	color: #0068C9 !important;
+}
+.btn-cloudworks{
+	background-color: #0068C9 !important;
+	border-color:#0068C9 !important;
+	color: white;
+}
+.bg-cloudworks{
+	background-color:#0068C9 !important;
+}
+.border-cloudworks{
+	border-color:#0068C9 !important;
+}
