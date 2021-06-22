@@ -148,7 +148,7 @@
 				<p class="lato-light fw-bold">Respondemos a la brevedad para <br>
 				asesorarte correctamente y así evaluar <br>
 				juntos las necesidades de tu negocio.</p>
-				<button class="btn btn-cloudworks text-light px-3 py-1">Contactános</button>
+				<button class="btn btn-cloudworks text-light px-3 py-1">Contáctanos</button>
 			</div>
 		</div>
 	</div>

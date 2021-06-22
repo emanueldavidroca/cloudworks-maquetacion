@@ -1,0 +1,11 @@
+/*RESPONSIVE*/
+@media (max-width:768px){
+    #section-carousel .carousel-caption h5{
+        font-size:2.5rem !important;
+        line-height: 2.8rem !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        height: 10px !important;
+        width: 10px !important;
+    }
+}
