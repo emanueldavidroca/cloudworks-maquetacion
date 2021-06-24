@@ -212,7 +212,7 @@
 	min-height: 500px !important;
 }
 #section-contactanos h3{
-	font-size: 2.1rem;
+	font-size: 2.1rem !important;
 	margin-bottom: 15px;
 }
 #section-contactanos p{
@@ -263,6 +263,9 @@
 }
 #footer{
 	padding-top: 30px;
+}
+#footer .social img{
+	width: 75%;
 }
 
 /*SOBRE NOSOTROS*/

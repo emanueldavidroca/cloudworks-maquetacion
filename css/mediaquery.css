@@ -61,4 +61,80 @@
 	#section-quienes-somos p {
 		font-size: 20px;
 	}
+	#section-testimonios {
+		min-height: 300px;
+		margin-top: 20px;
+	}
+	#section-clientes {
+		margin-top: 30px;
+	}
+	#section-clientes p{
+		margin-bottom: 10px;
+	}
+	#section-clientes .slick-initialized .slick-slide {
+    	height: 100px !important;
+    	align-items: center !important;
+	}
+	.slick-clientes img,.slick-clientes-1 img,.slick-clientes-2 img{
+		width: 80%;
+	}
+	.prev-1 ,.next-1{
+    	top: 35px;
+	}
+	#section-contactanos{
+		background-image: none;
+		margin-bottom:45px;
+		margin-top: 20px;
+	}
+	#section-contactanos .container, #section-contactanos .row {
+		min-height: auto !important;
+	}
+	#section-contactanos .mobile-img{
+		height: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-image: url("../images/contacto-mobile.png");
+	}
+	#section-contactanos .mobile-grid{
+		display: grid;
+		grid-column-gap: 20px;
+		grid-template-columns: 3fr 5fr;
+		min-height: 65px;
+	}
+	#section-contactanos .mobile-grid div:first-child{
+		display: flex;
+		align-items: center;
+	}
+	#section-contactanos h3{
+	font-size: 1.65rem !important;
+	}
+	/*FOOTER*/
+	#footer{
+		height: auto;
+		padding: 25px 12px !important;
+	}
+	#footer .social .d-flex{
+		height: 60px;
+	}
+	#footer .social img{
+		width: 150px;
+		margin: 25px 0px;
+	}
+	#footer .links a{
+		width: 100%;
+	}
+	#footer .cloudworks{
+		min-height: auto !important;
+	}
+	#footer .social{
+		margin-top: 5px;
+		min-height: 280px;
+	}
+	#footer .social .social-links a{
+		width: 50px !important;
+		height: 50px !important;
+	}
+}
+@media (max-width:768px){
+
 }

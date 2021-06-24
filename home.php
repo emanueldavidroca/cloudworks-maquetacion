@@ -160,7 +160,12 @@ Generación de demanda para el sector TI y SaaS.</p>
 				<p class="lato-light fw-bold">Respondemos a la brevedad para <br>
 				asesorarte correctamente y así evaluar <br>
 				juntos las necesidades de tu negocio.</p>
-				<button class="btn btn-cloudworks text-light px-3 py-1">Contáctanos</button>
+				<div class="mobile-grid">
+					<div>
+						<button class="btn btn-cloudworks text-light px-3 py-1">Contáctanos</button>
+					</div>
+					<div class="mobile-img"></div>
+				</div>
 			</div>
 		</div>
 	</div>
