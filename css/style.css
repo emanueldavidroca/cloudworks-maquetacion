@@ -21,6 +21,19 @@
 	font-family: lato-regular;
 }
 /*ESTILOS */
+#section-carousel .carousel-item{
+	height: 90vh;
+	background-size: cover;
+}
+#section-carousel .carousel-1{
+	background-image: url("../images/header.png");
+}
+#section-carousel .carousel-2{
+	background-image: url("../images/header.png");
+}
+#section-carousel .carousel-3{
+	background-image: url("../images/header.png");
+}
 .carousel-indicators [data-bs-target]{
 	border-top: none !important;
     border-bottom: none !important;
@@ -42,10 +55,6 @@
 #section-carousel .carousel-caption h5{
 	font-size:6.5rem ;
 	line-height: 6rem ;
-}
-#section-carousel .carousel-caption p{
-	font-size:4rem !important;
-
 }
 .carousel-caption > div {
 	display: grid;
@@ -129,11 +138,11 @@
 	margin-top: 100px;
 }
 /*CLIENTES*/
-.slick-clientes-1 img,.slick-clientes-2 img{
+.slick-clientes img,.slick-clientes-1 img,.slick-clientes-2 img{
 	width: 65%;
 	margin: auto;
 }
-.slick-clientes-1,.slick-clientes-2{
+.slick-clientes,.slick-clientes-1,.slick-clientes-2{
 	display: block;
 }
 #section-clientes{

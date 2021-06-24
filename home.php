@@ -9,16 +9,15 @@
 	    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="btn" aria-label="Slide 3"></button>
 	  </div>
 	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img src="images/header.png" class="d-block w-100" alt="...">
+	    <div class="carousel-item active carousel-1">
+	      <!--<img src="images/header.png" class="d-block w-100" alt="...">-->
 	      <div class="carousel-caption d-none d-md-block">
 	      	<div class="text-start">
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h5>
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h5>
 
 
-		        <span class="text-dark title-md fw-normal lato-light">Creamos sitios web</span>
-		        <span class="text-dark title-md fw-normal lato-light">y aplicaciones</span>
+		        <p class="text-dark title-md fw-normal lato-light"><span>Creamos sitios web <br>y aplicaciones</span></p>
 
 		        <div class="mt-4">
 		        	<button class="btn btn-cloudworks fs-5 text-light">Ver más</button>
@@ -26,30 +25,28 @@
 	      	</div>
 	      </div>
 	    </div>
-	    <div class="carousel-item">
-	      <img src="images/header.png" class="d-block w-100" alt="...">
+	    <div class="carousel-item carousel-2">
+	      <!--<img src="images/header.png" class="d-block w-100" alt="...">-->
 	      <div class="carousel-caption d-none d-md-block">
 	      	<div class="text-start">
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h5>
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h5>
 
-		        <span class="text-dark title-md lato-light">Creamos sitios web</span>
-		        <span class="text-dark title-md lato-light">y aplicaciones</span>
+		        <p class="text-dark title-md fw-normal lato-light"><span>Creamos sitios web <br>y aplicaciones</span></p>
 		        <div class="mt-4">
 		        	<button class="btn btn-cloudworks fs-5 text-light">Ver mas</button>
 		        </div>
 	      	</div>
 	      </div>
 	    </div>
-	    <div class="carousel-item">
-	      <img src="images/header.png" class="d-block w-100" alt="...">
+	    <div class="carousel-item carousel-3">
+	      <!--  <img src="images/header.png" class="d-block w-100" alt="...">-->
 	      <div class="carousel-caption d-none d-md-block">
 	      	<div class="text-start">
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h5>
 		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h5>
 
-		        <span class="text-dark title-md lato-light">Creamos sitios web</span>
-		        <span class="text-dark title-md lato-light">y aplicaciones</span>
+		        <p class="text-dark title-md fw-normal lato-light"><span>Creamos sitios web <br>y aplicaciones</span></p>
 		        <div class="mt-4">
 		        	<button class="btn btn-cloudworks fs-5 text-light">Ver mas</button>
 		        </div>
@@ -70,13 +67,13 @@
 <script>
 	
 </script>
-<div class="container-fluid pe-6 mt-4" id="section-potenciamos-negocio">
+<div class="container-fluid pe-0 pe-md-5 mt-4" id="section-potenciamos-negocio">
 	<div class="row">
 		
-		<div class="col-md-7 ">
-			<div class="row p-0">
-				<div class="col-md-9 bg-cloudworks" style="min-height: 500px">
-					<div class="video-wrapper">
+		<div class="col-md-7 col-12 px-0">
+			<div class="row p-0 w-100">
+				<div class="col-md-9 col-12 bg-cloudworks" style="min-height: 500px">
+					<div class="video-wrapper p-4 p-md-0">
 						
 						<video width="700px" controls style="">
 						  <source src="video/BROCHURE VIDEO 9Jun.mp4" type="video/mp4">
@@ -86,29 +83,30 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-5 text-end d-flex align-items-end text" style="flex-direction: column;justify-content: center">
-		<p class="tittle">Potenciamos tu negocio <br>
+		<div class="col-md-5 col-12 text-center text-md-end d-flex align-items-end text px-3 px-md-0 pt-3 pt-md-0" style="flex-direction: column;justify-content: center">
+		<p class="tittle w-100">Potenciamos tu negocio <br>
 		con soluciones inteligentes</p>
 
-		<p class="copy">Queremos ayudarte a mejorar la <br>	
+		<p class="copy w-100">Queremos ayudarte a mejorar la <br>	
 		operación de tu negocio.</p>
 		
-		<p class="calltoaction">¡Tomemos un café virtual y veamos <br>	
+		<p class="calltoaction w-100">¡Tomemos un café virtual y veamos <br>	
 		qué podemos hacer por vos!</p>
 		<div class="barra-azul"></div>
 		</div>
 	</div>
 </div>
-<div class="container-fluid bg-cloudworks" id="section-quienes-somos">
+<div class="container-fluid bg-cloudworks py-4 py-md-0" id="section-quienes-somos">
 	<div class="container">
-		<div class="row align-items-center" style="min-height: 400px">
+		<div class="row align-items-start align-items-md-center " style="min-height: 400px">
 			<div class="col-md-6">
-				<h4>
+				<h4 class="mb-2 mb-md-2">
 					¿Quiénes somos?
 				</h4>
-				<p>El rocket Team de Cloudworks es un 
-				desprendimiento	del Holding Connaxis especializada en dos unidades de negocio: Desarrollo Web y Consultoría Digital.</p>
-				<button>Seguír leyendo</button>
+				<p>El rocket Team de Cloudworks es un desprendimiento
+del Holding Connaxis con foco en Desarrollo Web y
+Generación de demanda para el sector TI y SaaS.</p>
+				<button class="mt-2 mt-md-0">Seguír leyendo</button>
 			</div>
 		</div>
 	</div>
@@ -117,8 +115,8 @@
 <div class="container" id="section-clientes">
 	<p class="text-cloudworks montserrat-bold fs-2">Clientes</p>
 	<div class="section-clientes-wrapper">
-		<button class="prev btn"><i class="fa fa-chevron-left"></i></button>
-		<div class="slick-clientes-1">
+		<button class="prev-1 btn"><i class="fa fa-chevron-left"></i></button>
+		<div class="slick-clientes">
 			<div><img src="images/logos home clientes/0.png" alt=""></div>
 			<div><img src="images/logos home clientes/1024px-Logo_Tigo.svg.png" alt=""></div>
 			<div><img src="images/logos home clientes/1264px-Grupo_Clarín_logo.svg.png" alt=""></div>
@@ -142,7 +140,7 @@
 			<div><img src="images/logos home clientes/wisboo-logo-bg-white.png" alt=""></div>
 			<div><img src="images/logos home clientes/xlogo_salud.png.pagespeed.ic.MNfALR1x9k.png" alt=""></div>
 		</div>
-		<button class="next btn"><i class="fa fa-chevron-right"></i></button>
+		<button class="next-1 btn"><i class="fa fa-chevron-right"></i></button>
 	</div>
 </div>
 <div class="container" id="section-testimonios">
@@ -168,7 +166,7 @@
 	</div>
 </div>
 <div class="container" id="section-noticias">
-	<h3 class="text-cloudworks fs-3 text-center mb-5 fw-bold">Noticias</h3>
+	<h3 class="text-cloudworks fs-3 text-center mb-1 mb-md-4 fw-bold">Noticias</h3>
 	<div class="row justify-content-center">
 		<div class="col-9 col-md-12 col-lg-11 col-xl-9 row">
 			<div class="col-md-4 col-lg-4 my-2" >
