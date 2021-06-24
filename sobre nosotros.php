@@ -37,7 +37,7 @@
 		</div>
 		<div class="col-md-3 px-2">
 			<h3 class="fs-2 montserrat-bold text-center"><span class="number">6</span><br> Países</h3>
-			<p class="text-center">Tenemos operaciones en Argentina, México, Bolivia, España, Holanda, Colombia.</p>
+			<p class="text-center">Tenemos oficinas en Argentina, Bolivia, España y Holanda.</p>
 		</div>
 	</div>
 </div>
@@ -49,7 +49,7 @@
 				con nosotros?
 			</h3>
 			<p class="lato-light fs-3" style="font-weight: 500">Nos enfocamos a crear un ambiente de
-			trabajo propicio para mejores resultados.</p>
+			trabajo flexible y orientado a mejorar los resultados.</p>
 		</div>
 		<div class="col-md-7">
 			<div class="row p-0 justify-content-end">
@@ -112,7 +112,7 @@
 			su calidad de vida.
 			<br><br>
 			En Cloudworks somos proclives al trabajo
-			remoto y presencial, nos aggiornamos a
+			remoto y presencial, nos adaptamos a
 			metodologías eficaces para la ejecución
 			de proyectos.</p>
 		</div>
