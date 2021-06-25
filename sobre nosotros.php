@@ -54,12 +54,8 @@
 		<div class="col-md-7">
 			<div class="row p-0 justify-content-end">
 				<div class="col-md-9 bg-cloudworks" style="min-height: 500px">
-					<div class="video-wrapper">
-						
-						<video width="700px" controls style="">
-						  <source src="video/BROCHURE VIDEO 9Jun.mp4" type="video/mp4">
-						  <source src="movie.ogg" type="video/ogg">
-						</video>
+					<div class="img-wrapper">
+						<img src="images/trabajar-nosotros.jpg" width="610px" alt="">
 					</div>
 				</div>
 			</div>

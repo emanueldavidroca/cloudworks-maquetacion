@@ -13,8 +13,8 @@
 	      <!--<img src="images/header.png" class="d-block w-100" alt="...">-->
 	      <div class="carousel-caption d-none d-md-block">
 	      	<div class="text-start">
-		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h5>
-		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h5>
+		        <h1 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h1>
+		        <h1 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h1>
 
 
 		        <p class="text-dark title-md fw-normal lato-light"><span>Creamos sitios web <br>y aplicaciones</span></p>
@@ -29,8 +29,8 @@
 	      <!--<img src="images/header.png" class="d-block w-100" alt="...">-->
 	      <div class="carousel-caption d-none d-md-block">
 	      	<div class="text-start">
-		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h5>
-		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h5>
+		        <h1 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h1>
+		        <h1 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h1>
 
 		        <p class="text-dark title-md fw-normal lato-light"><span>Creamos sitios web <br>y aplicaciones</span></p>
 		        <div class="mt-4">
@@ -43,8 +43,8 @@
 	      <!--  <img src="images/header.png" class="d-block w-100" alt="...">-->
 	      <div class="carousel-caption d-none d-md-block">
 	      	<div class="text-start">
-		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h5>
-		        <h5 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h5>
+		        <h1 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-0">Desarrollo</h1>
+		        <h1 class="text-cloudworks fs-1 fw-bold montserrat-bold title-lg mb-2">front end</h1>
 
 		        <p class="text-dark title-md fw-normal lato-light"><span>Creamos sitios web <br>y aplicaciones</span></p>
 		        <div class="mt-4">

@@ -52,8 +52,8 @@
 	align-items: center;
 	left:8%;
 }
-#section-carousel .carousel-caption h5{
-	font-size:6.5rem ;
+#section-carousel .carousel-caption h1{
+	font-size:6.5rem !important;
 	line-height: 6rem ;
 }
 .carousel-caption > div {
@@ -290,5 +290,13 @@
 	top: 50px;
 }
 #section-porque-trabajar .video-wrapper{
+	position: relative;
+}
+#section-porque-trabajar .img-wrapper img{
+	position: absolute;
+	right: 150px;
+	top: 50px;
+}
+#section-porque-trabajar .img-wrapper{
 	position: relative;
 }
