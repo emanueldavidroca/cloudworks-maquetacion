@@ -3,22 +3,22 @@
 
 <div class="container" id="hero-sobre-nosotros">
 	<div class="row justify-content-center py-4">
-		<div class="col-md-6 d-flex justify-content-center" style="flex-direction: column;">
+		<div class=" col-8 col-md-5 d-flex justify-content-center" style="flex-direction: column;">
 			<h1 class="text-cloudworks px-2">
 				Sobre <br>
 				nosotros
 			</h1>
-			<div class="row mt-5">
-				<div class="col-md-6 p-3">
+			<div class="row mt-1 mt-md-5 ps-4 ps-md-0">
+				<div class="col-6 col-md-6 p-0 p-md-3">
 					<img src="images/connaxis-clean.png" class="w-75" alt="">
 				</div>
-				<div class="col-md-6 p-3">
+				<div class="col-6 col-md-6 p-0 p-md-3">
 					<img src="images/PNG-CWS.png" class="w-75" alt="">
 				</div>
 			</div>
 		</div>
-		<div class="col-md-6 p-3 d-flex justify-content-center">
-			<img src="images/sobre-nosotros-hero.png" class=" w-75" alt="">
+		<div class="col-4 col-md-6 p-0 p-md-3 d-flex justify-content-center hero-img">
+			<img src="images/sobre-nosotros-hero.png" class="w-100 w-md-75" alt="">
 		</div>
 	</div>
 </div>
@@ -41,9 +41,13 @@
 		</div>
 	</div>
 </div>
+
+
+
+
 <div class="container-fluid my-5" id="section-porque-trabajar">
 	<div class="row justify-content-end align-items-center">
-		<div class="col-md-4">
+		<div class="col-md-4 text-center text-md-start">
 			<h3 class="montserrat fs-2 fw-bold text-cloudworks">
 				¿Por qué trabajar <br>	
 				con nosotros?
@@ -53,9 +57,12 @@
 		</div>
 		<div class="col-md-7">
 			<div class="row p-0 justify-content-end">
-				<div class="col-md-9 bg-cloudworks" style="min-height: 500px">
-					<div class="img-wrapper">
-						<img src="images/trabajar-nosotros.jpg" width="610px" alt="">
+				<div class="col-12 col-md-9 bg-cloudworks" style="min-height: 500px">
+					<div class="video-wrapper p-4 p-md-0">
+						<video width="700px" controls style="">
+						  <source src="video/video por qué trabajar con nos.mp4" type="video/mp4">
+						  <source src="movie.ogg" type="video/ogg">
+						</video>
 					</div>
 				</div>
 			</div>
@@ -97,7 +104,7 @@
 		<button class="next-2 btn"><i class="fa fa-chevron-right"></i></button>
 	</div>
 </div>
-<div class="container my-5">
+<div class="container my-5" id="section-donde-estamos">
 	<div class="row">
 		<div class="col-md-6">
 			<h3 class="text-cloudworks fs-2 fw-bold mb-3 px-3 montserrat-bold">¿Dónde estamos?</h3>
@@ -117,7 +124,7 @@
 		</div>
 	</div>
 </div>
-<div class="container my-5">
+<div class="container my-5" id="section-partner">
 	<div class="row">
 		<div class="col-md-5 d-flex align-items-center">
 			<div class="row">

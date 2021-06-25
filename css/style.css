@@ -21,6 +21,13 @@
 	font-family: lato-regular;
 }
 /*ESTILOS */
+/*NAVBAR*/
+.navbar .dropdown-item{
+	color: #0068C9;
+	font-family: lato-regular;
+	font-weight: bold;
+}
+/*CARROUSEL HOME*/
 #section-carousel .carousel-item{
 	height: 90vh;
 	background-size: cover;
@@ -53,7 +60,7 @@
 	left:8%;
 }
 #section-carousel .carousel-caption h1{
-	font-size:6.5rem !important;
+	font-size:6.5rem !important ;
 	line-height: 6rem ;
 }
 .carousel-caption > div {
@@ -286,17 +293,9 @@
 /*VIDEO-PORQUE-TRABAJO*/
 #section-porque-trabajar .video-wrapper video{
 	position: absolute;
-	right: 150px;
+	right: 130px;
 	top: 50px;
 }
 #section-porque-trabajar .video-wrapper{
-	position: relative;
-}
-#section-porque-trabajar .img-wrapper img{
-	position: absolute;
-	right: 150px;
-	top: 50px;
-}
-#section-porque-trabajar .img-wrapper{
 	position: relative;
 }
