@@ -299,3 +299,15 @@
 #section-porque-trabajar .video-wrapper{
 	position: relative;
 }
+#section-decada p,#section-outsorcing p,#section-testimonio p,#section-diferencia p,#section-tecnologia p,#section-wordpress p,#section-woocommerce p,#section-seo p{
+	font-size: 20px;
+}
+#section-decada .title,#section-outsorcing .title,#section-testimonio .title,#section-diferencia .title,#section-tecnologia .title,#section-wordpress .title,#section-woocommerce .title,#section-seo .title{
+	font-size: 36px;
+	font-weight: bold;
+}
+#section-decada .subtitle,#section-outsorcing .subtitle,#section-testimonio .subtitle,#section-diferencia .subtitle,#section-tecnologia .subtitle,#section-wordpress .subtitle,#section-woocommerce .subtitle,#section-seo .subtitle{
+	font-size: 25px;
+	line-height: 32px;
+	font-weight: bold;
+}

@@ -1,0 +1,28 @@
+/*mediaquery: Es una funcionalidad de CSS que viene nativamente, no es un plugin ni assets, son estilos que cambian pero con la condicion aplicada en el @media, osea que si en mediaquery tenemos la condicion de pantalla (max-width:1024; los estilos que esten abajo , no se aplican hasta que la pantalla sea mas pequeña o igual a 1024px*/
+@media (max-width: 768px){
+	/*METODO 1*/
+	/*
+	.hero-title span{
+		display: none;
+	}
+	.hero-title:after{
+		content: "Creamos sitios web y apps";
+	}*/
+	.span-desktop{
+		display: none !important;
+	}
+	.span-mobile{
+		display: block !important;
+	}
+}
+@media (max-width: 1024px){
+
+}
+.span-desktop{
+	display: block;
+}
+.span-mobile{
+	display: none;
+}
+
+/*Dos maneras de cambiar texto segun celular o desktop*/
