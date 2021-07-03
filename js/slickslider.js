@@ -55,11 +55,9 @@ $('.slick-clientes-2').slick({
 });
 $('.slick-testimonios').slick({
   slidesToScroll: 1,
-  centerMode: true,
   autoplay: true,
   autoplaySpeed: 4000,
   infinite: true,
-  centerPadding: '0px',
   slidesToShow: 3,
   arrows: false,
   responsive: [

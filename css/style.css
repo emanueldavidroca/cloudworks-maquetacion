@@ -195,9 +195,8 @@
 	height: 300px;
 }
 .slick-testimonios img{
-	width: 80%;
+	width: 100%;
 	margin: auto;
-	opacity: 0.7;
 }
 .slick-testimonios .slick-center img{
 	width: 100%;
@@ -299,15 +298,19 @@
 #section-porque-trabajar .video-wrapper{
 	position: relative;
 }
-#section-decada p,#section-outsorcing p,#section-testimonio p,#section-diferencia p,#section-tecnologia p,#section-wordpress p,#section-woocommerce p,#section-seo p{
+#section-decada p,#section-outsorcing p,#section-testimonio p,#section-diferencia p,#section-tecnologia p,#section-wordpress p,#section-woocommerce p,#section-seo p,#section-wordpress-3 p,#section-base-datos p,#section-apps p,#section-trabajamos p,#section-horas p{
 	font-size: 20px;
 }
-#section-decada .title,#section-outsorcing .title,#section-testimonio .title,#section-diferencia .title,#section-tecnologia .title,#section-wordpress .title,#section-woocommerce .title,#section-seo .title{
+#section-decada .title,#section-outsorcing .title,#section-testimonio .title,#section-diferencia .title,#section-tecnologia .title,#section-wordpress .title,#section-woocommerce .title,#section-seo .title,#section-wordpress-3 .title,#section-base-datos .title,#section-apps .title,#section-trabajamos .title,#section-horas .title{
 	font-size: 36px;
 	font-weight: bold;
 }
-#section-decada .subtitle,#section-outsorcing .subtitle,#section-testimonio .subtitle,#section-diferencia .subtitle,#section-tecnologia .subtitle,#section-wordpress .subtitle,#section-woocommerce .subtitle,#section-seo .subtitle{
+#section-decada .subtitle,#section-outsorcing .subtitle,#section-testimonio .subtitle,#section-diferencia .subtitle,#section-tecnologia .subtitle,#section-wordpress .subtitle,#section-woocommerce .subtitle,#section-seo .subtitle,#section-wordpress-3 .subtitle,#section-apps .subtitle,#section-trabajamos .subtitle,#section-horas .subtitle{
 	font-size: 25px;
 	line-height: 32px;
+	font-weight: bold;
+}
+#section-wordpress-3 .title-2{
+	font-size: 28px;
 	font-weight: bold;
 }

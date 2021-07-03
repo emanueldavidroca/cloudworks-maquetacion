@@ -129,8 +129,44 @@
 	</div>
 </div>
 
-
-
+<div class="container my-3 my-md-5" id="section-wordpress-3">
+	<div class="row">
+		<div class="col-md-6 pe-md-5">
+			<div>
+				<h3 class="title-2 montserrat-bold text-cloudworks">A MEDIDA</h3>
+				<p>En Cloudworks desarrollamos WordPress de calidad con
+				foco en SEO, optimización, multi-idioma y cumplimos con
+				los máximos estándares de seguriad del mercado.</p>
+			</div>
+			<div>
+				<h3 class="title-2 montserrat-bold text-cloudworks">ADAPTACIONES</h3>
+				<p>Creamos sitios Web Responsive porque hoy la tendencia
+				mundial es un mayor uso de dispositivos móviles. Tus
+				clientes podrán conocer tu sitio desde cualquier lugar y
+				momento.</p>
+			</div>
+			<div>
+				<h3 class="title-2 montserrat-bold text-cloudworks">MEJORA CONTINUA</h3>
+				<p>Contamos con un equipo que se adapta a tus necesidades.
+				Brindamos seguimiento diario para que conozcas el
+				estado de tu proyecto, todos los días.</p>
+			</div>
+		</div>
+		<div class="col-md-6 d-flex align-items-center">
+			<div class="border-start border-5 border-primary ps-1 ps-md-5 py-5">
+				<h3 class="title mb-3 text-cloudworks montserrat-bold">Wordpress</h3>
+				<h4 class="subtitle mb-3 lato-regular">¿Buscás una solución de desarrollo
+				seguro y confiable?</h4>
+				<p class="lato-regular">Hacemos desarrollos web en WordPress
+				que convierten y te permiten vender más
+				y dar una gran impresión.</p>	
+			</div>
+		</div>
+	</div>
+</div>
+<div class="px-4">
+	<hr>
+</div>
 <div class="container my-3 my-md-5 py-2" id="section-wordpress">
 	<div class="row justify-content-between">
 		<div class="col-md-5 ps-2 pe-3">
@@ -154,12 +190,12 @@
 		</div>
 	</div>
 </div>
-<div class="container my-3 my-md-5 py-2" id="section-woocommerce">
+<div class="container my-3 my-md-5 py-3 py-md-5" id="section-woocommerce">
 	<div class="row justify-content-between">
 		<div class="col-md-6">
 			<img src="images/desarrollos web/Desarrollo web-03.png" class="img-fluid" alt="">
 		</div>
-		<div class="col-md-5 ps-2 pe-3">
+		<div class="col-md-5 ps-2 pe-3 text-end">
 			<h3 class="title text-cloudworks montserrat-bold">Woocommerce</h3>
 			<h4 class="subtitle lato-regular mt-2 mb-4">Vendé más con Woocommerce.</h4>
 			<p class="lato-light fw-bold">Aprovecha a tener tu tienda online con la
@@ -184,9 +220,9 @@
 </div>
 <div class="container my-3 my-md-5 py-2" id="section-seo">
 	<div class="row justify-content-between">
-		<div class="col-md-5 ps-2 pe-3">
+		<div class="col-md-5 ps-1 pe-1">
 			<h3 class="title text-cloudworks montserrat-bold">SEO Y UIX</h3>
-			<h4 class="subtitle lato-regular mt-2 mb-4">Mejora el SEO y la experiencia de tus usuarios en WP</h4>
+			<h4 class="subtitle lato-regular mt-2 mb-3">Mejora el SEO y la experiencia de tus usuarios en WP</h4>
 			<p class="lato-light fw-bold">WordPress cuenta con Plugins fáciles de implementar y
 			ahorran tiempo de programación, manteniendo un sitio web
 			sólido y su espíritu autoadministrable para cualquier usuario.
@@ -197,14 +233,100 @@
 			posicionamiento orgánico con diferentes plugins como Yoast,
 			WP Fasted Cache, WP-Rocket, AMP for WP, entre otros.
 			Además los blogs que podemos manipular el contenido y
-			<br><br>
+			<br>
 			dedicarnos a una estrategia de contenido con foco en posi-
 			cionamiento orgánico.</p>
 		</div>
 		<div class="col-md-6">
-			<img src="images/desarrollos web/Desarrollo web-04.png" class="img-fluid" alt="">
+			<img src="images/desarrollos web/Desarrollo web-04.png" class="w-100" alt="">
 		</div>
 	</div>
 </div>
+<div class="px-4">
+	<hr>
+</div>
+<div class="container" id="section-base-datos">	
+	<div class="row justify-content-between pe-4 py-3 py-md-5">
+		<div class="col-md-5">
+			<img src="images/desarrollos web/dw mobile-10.png" class="w-100" alt="">
 
+		</div>
+		<div class="col-md-5 d-flex align-items-center py-2 py-md-5 text-end justify-content-end">
+			<div>	
+				<h3 class="title text-cloudworks montserrat-bold">Bases de datos</h3>
+				<p>Todas las disponibles del mercado.</p>
+			</div>
+		</div>
+	</div>
+</div>	
+<div class="px-4">
+	<hr>
+</div>
+<div class="container my-3 py-2" id="section-apps">
+	<div class="row justify-content-between">
+		<div class="col-md-5 ps-2 pe-3 d-flex align-items-center">
+			<div>
+				<h3 class="title text-cloudworks montserrat-bold">Desarrollo de APPs</h3>
+				<h4 class="subtitle lato-regular mt-2 mb-4">Desarrollamos Apps Nativas e Híbridas para
+				potenciar la UX Mobile del usuario.</h4>
+				<p class="lato-regular">Ejecutamos tu proyecto de acuerdo a tus necesidades
+				o requerimientos. Contamos con amplia experiencia
+				en diversas tecnologías de vanguardia como: <span class="fw-bold">React,
+				Native, Kotlin, Swift, Ionic y Flutter</span>.
+				<br><br>
+				¿Tienes una idea y no sabes cómo ejecutarla?
+				¡Podemos ayudarte! Diseñamos y maquetamos tus
+				ideas trabajando en equipo. Nos encanta sentirnos
+				cerca de nuestros clientes.</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<img src="images/desarrollos web/dw mobile-08.png" class="w-100" alt="">
+		</div>
+	</div>
+</div>
+<div class="px-4">
+	<hr>
+</div>
+<div class="container my-3 py-2" id="section-trabajamos">
+	<div class="row justify-content-between">
+		<div class="col-md-6">
+			<img src="images/desarrollos web/dw mobile-12.png" class="img-fluid" alt="">
+		</div>
+		<div class="col-md-5 ps-2 pe-3 d-flex align-items-center text-end">
+			<div>
+				<h3 class="title text-cloudworks montserrat-bold">¿Cómo trabajamos?</h3>
+				<h4 class="subtitle lato-regular mt-2 mb-4">Metodología Scrum para Desarrollo Web</h4>
+				<p class="lato-regular">Planificamos con el cliente procesos eficientes para
+				aumentar la productividad del equipo. Tenemos
+				reuniones con mentalidad scrum que nos permiten
+				tener una comunicación colaborativa y mostrar
+				resultados de forma semanal al cliente.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="px-4">
+	<hr>
+</div>
+<div class="container my-3 py-2" id="section-horas">
+	<div class="row justify-content-between">
+		<div class="col-md-5 ps-2 pe-3 d-flex align-items-center">
+			<div>
+				<h4 class="subtitle lato-regular mt-2 mb-4">Trabajamos por horas o por proyecto</h4>
+				<p class="lato-regular">La flexibilidad en la contratación de nuestro
+				servicios de desarrollo on-demand es uno de
+				nuestros principales beneficios.
+				<br>
+				Entendemos muy bien el proceso de sobrecarga
+				de trabajo que tienen las agencias y podemos
+				ayudarlos como partners operativos para
+				completar proyectos.</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<img src="images/desarrollos web/dw mobile-08.png" class="w-100" alt="">
+		</div>
+	</div>
+</div>
 <?php require_once("footer.html"); ?>
