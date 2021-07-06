@@ -111,6 +111,24 @@
 	#section-contactanos h3{
 	font-size: 1.65rem !important;
 	}
+	#hero-desarrollos-web h1{
+		font-size: 45px;
+	}
+	#hero-desarrollos-web .hero-img img{
+		content: url("../images/desarrollos web/dw mobile-05.png");
+	}
+	#hero-desarrollos-web .hero-icono img{
+		width: 100%;
+		padding: 15px;
+	}
+	#hero-desarrollos-web .hero-img img{
+		width: 75%;
+	}
+	#hero-desarrollos-web .text-cloudworks{
+		line-height: 50px;
+	}
+
+
 	/*FOOTER*/
 	#footer{
 		height: auto;

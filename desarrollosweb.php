@@ -1,22 +1,22 @@
 <?php require_once("header.html"); ?>
-<div class="container-fluid" id="hero-sobre-nosotros">
+<div class="container-fluid" id="hero-desarrollos-web">
 	<div class="row justify-content-end py-4">
 		<div class="col-6 col-md-5 d-flex justify-content-center" style="flex-direction: column;">
-			<h1 class="text-cloudworks px-2">
+			<h1 class="text-cloudworks px-2 montserrat-bold">
 				Desarrollo <br>
 				web
 			</h1>
-			<div class="row mt-1 mt-md-5 ps-4 ps-md-0">
+			<div class="row mt-1 mt-md-5 ps-4 ps-md-0 hero-icono">
 				<div class="col-6 col-md-6 p-0 p-md-3">
-					<img src="images/connaxis-clean.png" class="w-75" alt="">
+					<img src="images/connaxis-clean.png" alt="">
 				</div>
 				<div class="col-6 col-md-6 p-0 p-md-3">
-					<img src="images/PNG-CWS.png" class="w-75" alt="">
+					<img src="images/PNG-CWS.png" alt="">
 				</div>
 			</div>
 		</div>
-		<div class="col-4 col-md-6 p-0 p-md-0 d-flex justify-content-center hero-img">
-			<img src="images/Desarrollo web Header-02.png" class="w-100 w-md-75" alt="">
+		<div class="col-6 col-md-6 p-0 p-md-0 d-flex justify-content-center hero-img">
+			<img src="images/Desarrollo web Header-02.png" alt="">
 		</div>
 	</div>
 </div>

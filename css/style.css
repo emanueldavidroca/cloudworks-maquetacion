@@ -274,13 +274,20 @@
 	width: 75%;
 }
 
-/*SOBRE NOSOTROS*/
-#hero-sobre-nosotros h1{
+/*SOBRE NOSOTROS y Desarrollos web*/
+#hero-sobre-nosotros h1,#hero-desarrollos-web h1{
 	font-size: 6.8rem;
 	line-height: 5.6rem;
 	font-weight: bolder;
-
 }
+#hero-desarrollos-web .hero-icono img{
+	width: 75%;
+}
+#hero-desarrollos-web .hero-img img{
+	width: 75%;
+}
+
+
 #section-caracteristicas h3 .number{
 	font-size: 3.5rem;
 }
