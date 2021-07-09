@@ -258,9 +258,7 @@
 	transition-property: width;
   	transition-duration: 0.35s;
 }
-#footer .row .col-md-3 > div > p{
-	color:#AFAFAF;
-}
+
 #footer .links a{
 	position: relative;
 	text-decoration: none;
@@ -297,12 +295,12 @@
 	margin-bottom: 50px;
 }
 /*VIDEO-PORQUE-TRABAJO*/
-#section-porque-trabajar .video-wrapper video{
+#section-porque-trabajar .img-wrapper img{
 	position: absolute;
 	right: 130px;
 	top: 50px;
 }
-#section-porque-trabajar .video-wrapper{
+#section-porque-trabajar .img-wrapper{
 	position: relative;
 }
 #section-decada p,#section-outsorcing p,#section-testimonio p,#section-diferencia p,#section-tecnologia p,#section-wordpress p,#section-woocommerce p,#section-seo p,#section-wordpress-3 p,#section-base-datos p,#section-apps p,#section-trabajamos p,#section-horas p{

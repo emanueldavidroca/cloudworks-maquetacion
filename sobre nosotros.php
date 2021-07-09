@@ -42,9 +42,6 @@
 	</div>
 </div>
 
-
-
-
 <div class="container-fluid my-5" id="section-porque-trabajar">
 	<div class="row justify-content-end align-items-center">
 		<div class="col-md-4 text-center text-md-start">
@@ -53,23 +50,20 @@
 				con nosotros?
 			</h3>
 			<p class="lato-light fs-3" style="font-weight: 500">Nos enfocamos a crear un ambiente de
-			trabajo flexible y orientado a mejorar los resultados.</p>
+			trabajo propicio para mejores resultados.</p>
 		</div>
 		<div class="col-md-7">
 			<div class="row p-0 justify-content-end">
 				<div class="col-12 col-md-9 bg-cloudworks" style="min-height: 500px">
-					<div class="video-wrapper p-4 p-md-0">
-						<video width="700px" controls style="">
-						  <source src="video/video por qué trabajar con nos.mp4" type="video/mp4">
-						  <source src="movie.ogg" type="video/ogg">
-						</video>
+					<div class="img-wrapper p-4 p-md-0">
+						<img src="images/trabajar-nosotros.jpg" class="w-100" alt="">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="container my-5" id="section-clientes">
+<div class="container my-5 px-4 px-md-1" id="section-clientes">
 	<h3 class="text-cloudworks montserrat-bold fs-2 text-end">Clientes</h3>
 	<div class="section-clientes-wrapper">
 		<button class="prev-1 btn"><i class="fa fa-chevron-left"></i></button>
@@ -107,8 +101,8 @@
 <div class="container my-5" id="section-donde-estamos">
 	<div class="row">
 		<div class="col-md-6">
-			<h3 class="text-cloudworks fs-2 fw-bold mb-3 px-3 montserrat-bold">¿Dónde estamos?</h3>
-			<p class="fs-5 px-3" style="text-align: justify;">Nos encanta utilizar herramientas colaborativas
+			<h3 class="text-cloudworks fs-2 fw-bold mb-3 px-3 montserrat-bold text-center">¿Dónde estamos?</h3>
+			<p class="fs-5 px-3 d-none d-md-block" style="text-align: justify;">Nos encanta utilizar herramientas colaborativas
 			que permiten estar comunicados desde
 			cualquier lugar y momento. Ayudando a los
 			colaboradores a optimizar el tiempo y mejorar
@@ -120,42 +114,45 @@
 			de proyectos.</p>
 		</div>
 		<div class="col-md-6">
-			<img src="images/mapa_covid-19_web_sinfondo_web.png" class="w-100" alt="">
+			<img src="images/SN-05.png" class="w-100" alt="">
 		</div>
 	</div>
 </div>
 <div class="container my-5" id="section-partner">
 	<div class="row">
-		<div class="col-md-5 d-flex align-items-center">
-			<div class="row">
-				<div class="col-md-6 my-4 justify-content-center">
+		<div class="col-md-5 d-flex align-items-center order-2 order-md-1">
+			<div class="row justify-content-center">
+				<div class="col-6 col-md-6 my-4 justify-content-center">
 					<img src="images/Artboard 2.png"  class="w-100" alt=""></div>
-				<div class="col-md-6 my-4 justify-content-center">
+				<div class="col-6 col-md-6 my-4 justify-content-center">
 					<img src="images/logos home clientes/marketo.png" class="w-100"  alt=""></div>
-				<div class="col-md-6 my-4 justify-content-center">
+				<div class="col-6 col-md-6 my-4 justify-content-center">
 					<img src="images/logos home clientes/porsperworks.png" class="w-100"  alt=""></div>
-				<div class="col-md-6 my-4 justify-content-center">
+				<div class="col-6 col-md-6 my-4 justify-content-center">
 					<img src="images/logos home clientes/connaxis-hosting-control-logo.png" class="w-100"  alt="">
 				</div>
-				<div class="col-md-6 my-3 justify-content-center">
+				<div class="col-6 col-md-6 my-3 justify-content-center">
 					<img src="images/logos home clientes/ntitle-logo.jpg" class="w-100"  alt="">
 				</div>
-				<div class="col-md-6 py-4 d-inline-flex my-3 justify-content-center">
+				<div class="col-6 col-md-6 py-4 d-inline-flex my-3 justify-content-center">
 					<img src="images/logos home clientes/facebook-business.png" class="w-50"  alt="">
 				</div>
-				<div class="col-md-6 my-3 d-inline-flex justify-content-center">
+				<div class="col-6 col-md-6 my-3 d-inline-flex justify-content-center">
 					<img src="images/logos home clientes/gsuite-transparent.png" class="w-75"  alt="">
 				</div>
 			</div>
 		</div>
-		<div class="col-md-7 ps-4">
-			<h3 class="text-cloudworks fs-2 fw-bold mb-3 px-3 montserrat-bold text-end">Partners</h3>
-			<p class="fs-5 px-3" style="text-align: justify;">
+		<div class="col-md-7 ps-1 os-md-4 order-1 order-md-2">
+			<h3 class="text-cloudworks fs-2 fw-bold mb-3 px-3 montserrat-bold text-center text-md-end ">Partners</h3>
+			<p class=" px-2 px-md-3 lato-regular p-desktop d-none d-md-block" style="text-align: justify;">
 				Tenemos múltiples alianzas que nos conectan con otros servicios y productos. Somos partners de: Google - Microsoft - Marketo - CRM - Hosting Web - Licencias de seguridad con foco en estándares mundiales y los productos más innovadores del mercado.
 				<br><br>
 				De acuerdo a las necesidad de cada cliente, ofrecemos un portfolio de servicios según su presupuesto. En general, las herramientas más económicas requieren de un mayor grado de parametrización e implementación, pero en Cloudworks tenemos un amplio equipo de profesionales capaz de implementar CRM, Wordpress, ERP, sistemas de gestión, sistemas de Ventas.
 				<br><br>
 				También trabajamos en el sector educación ayudando a las organizaciones a utilizar Gsuite for Business, Microsoft Education y LMS más populares como Edmodo, Moodle,Blackboard, SuccessFactors, SkillSoft.
+			</p>
+			<p class="p-mobile d-block d-md-none px-2 lato-regular text-center">
+				Tenemos multiples alianzas que nos conectan con otros servicios y productos. Somos partners de: Google - Microsoft - Marketo - CRM - Hosting Web -Licencias de Seguridad con foco en estándares mundiales y los productos más innovadores del mercado.
 			</p>
 		</div>
 	</div>

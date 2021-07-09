@@ -39,6 +39,7 @@
     }
     #section-potenciamos-negocio .bg-cloudworks{
     	min-height: initial !important;
+    	padding: 10px !important;
     }
     #section-potenciamos-negocio .tittle {
 		font-size: 28px;
@@ -51,6 +52,7 @@
 	#section-potenciamos-negocio .calltoaction {
 		font-size: 24px;
 	}
+
 	#section-quienes-somos {
 	    margin-top: 30px;
 	}
@@ -84,6 +86,16 @@
 	.prev-1 ,.next-1{
     	top: 35px;
 	}
+	.prev-2 ,.next-2{
+		top: 130px;
+	}
+	.prev-1 ,.prev-2{
+		left:-5%;
+	}
+	.next-1 ,.next-2{
+		right:-5%;
+	}
+
 	#section-contactanos{
 		background-image: none;
 		margin-bottom:45px;
@@ -127,8 +139,6 @@
 	#hero-desarrollos-web .text-cloudworks{
 		line-height: 50px;
 	}
-
-
 	/*FOOTER*/
 	#footer{
 		height: auto;
@@ -156,8 +166,10 @@
 		height: 50px !important;
 	}
 	#hero-sobre-nosotros h1{
-        font-size:3.7rem !important;
-        line-height: 3.1rem !important;
+        font-size:3.5rem !important;
+        line-height: 2.8rem !important;
+        margin-bottom: 20px;
+        padding-left: 10px;
     }
     #hero-sobre-nosotros .hero-img{
     	display: flex;
@@ -166,7 +178,7 @@
     #hero-sobre-nosotros .hero-img img{
     	height: fit-content;
     }
-    #section-porque-trabajar .video-wrapper video{
+    #section-porque-trabajar .img-wrapper img{
     	width: 100%;
     	position: relative;
 		right: initial;
@@ -175,7 +187,24 @@
     #section-porque-trabajar .bg-cloudworks{
     	min-height: initial !important;
     }
+    #section-partner .p-desktop{
+    	font-size:1.1rem !important;
+    	line-height:1.2rem !important;
+    }
+    #section-partner .p-mobile{
+    	font-size:1.1rem !important;
+    	line-height:1.5rem !important;
+    }
 }
-@media (max-width:1024px){
-
+@media (max-width:340px){
+	#hero-sobre-nosotros h1{
+        font-size:2.8rem !important;
+        line-height: 2.3rem !important;
+    }
+	.prev-1 ,.prev-2{
+		left:-10%;
+	}
+	.next-1 ,.next-2{
+		right:-10%;
+	}
 }

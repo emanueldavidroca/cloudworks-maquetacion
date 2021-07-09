@@ -85,14 +85,17 @@
 		</div>
 		<div class="col-md-5 col-12 text-center text-md-end d-flex align-items-end text px-3 px-md-0 pt-3 pt-md-0" style="flex-direction: column;justify-content: center">
 		<p class="tittle w-100">Potenciamos tu negocio <br>
-		con soluciones inteligentes</p>
+		con soluciones digitales</p>
 
 		<p class="copy w-100">Queremos ayudarte a mejorar la <br>	
 		operación de tu negocio.</p>
 		
 		<p class="calltoaction w-100">¡Tomemos un café virtual y veamos <br>	
 		qué podemos hacer por vos!</p>
-		<div class="barra-azul"></div>
+		<div class="barra-azul d-none d-md-block"></div>
+		</div>
+		<div class="d-flex d-md-none justify-content-center btn-mobile">
+			<a href="" class="btn btn-cloudworks">Charlemos</a>
 		</div>
 	</div>
 </div>
@@ -173,7 +176,7 @@ Generación de demanda para el sector TI y SaaS.</p>
 <div class="container" id="section-noticias">
 	<h3 class="text-cloudworks fs-3 text-center mb-1 mb-md-4 fw-bold">Noticias</h3>
 	<div class="row justify-content-center">
-		<div class="col-9 col-md-12 col-lg-11 col-xl-9 row">
+		<div class="col-10 col-md-12 col-lg-11 col-xl-9 row">
 			<div class="col-md-4 col-lg-4 my-2" >
 				<div class="card border-0 w-100">
 				  <img class="card-img-top" src="images/inteligencia-artificial.jpg" alt="Card image cap">
