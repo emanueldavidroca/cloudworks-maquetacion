@@ -11,7 +11,15 @@
 	font-family: lato-regular;
 	src:url(../fonts/Lato-Regular.ttf);
 }
+@font-face{
+	font-family: montserrat-black;
+	src:url(../fonts/Montserrat-Black.otf);
+}
+
 .montserrat-bold{
+	font-family: montserrat-bold;
+}
+.montserrat-black{
 	font-family: montserrat-bold;
 }
 .lato-light{
@@ -34,6 +42,9 @@
 }
 #section-carousel .carousel-1{
 	background-image: url("../images/header.png");
+}
+.contact-hero .carousel-1{
+	background-image: url("../images/contacto header desktop-05.png") !important;
 }
 #section-carousel .carousel-2{
 	background-image: url("../images/header.png");
@@ -59,9 +70,21 @@
 	align-items: center;
 	left:8%;
 }
+.contact-hero .carousel-caption{
+	height: 100%;
+	display: flex !important;
+	justify-content: flex-start !important;
+	align-items: center !important;
+	left:12% !important;
+}
 #section-carousel .carousel-caption h1{
 	font-size:6.5rem !important ;
 	line-height: 6rem ;
+}
+.contact-hero .carousel-caption h2 {
+	font-size:5.4rem !important ;
+	line-height: 5.2rem ;
+	text-align: right;
 }
 .carousel-caption > div {
 	display: grid;
@@ -303,6 +326,11 @@
 #section-porque-trabajar .img-wrapper{
 	position: relative;
 }
+#section-porque-trabajar p{
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: bold !important;
+}
 #section-decada p,#section-outsorcing p,#section-testimonio p,#section-diferencia p,#section-tecnologia p,#section-wordpress p,#section-woocommerce p,#section-seo p,#section-wordpress-3 p,#section-base-datos p,#section-apps p,#section-trabajamos p,#section-horas p{
 	font-size: 20px;
 }
@@ -318,4 +346,33 @@
 #section-wordpress-3 .title-2{
 	font-size: 28px;
 	font-weight: bold;
+}
+#section-carreras .input-text{
+	border:none;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #0068C9;
+}
+#section-carreras form{
+	border-radius: 40px;
+}
+#contact-form input,#contact-form textarea{
+	border-radius: 12px;
+	border: 2px #0068C9 solid;
+}
+#contact-form input::placeholder,#contact-form textarea::placeholder{
+	color: #0068C9;
+}
+#contact-form textarea{
+	height: 100%;
+}
+
+#contact-form .form-control-checkbox{
+	height: 20px;
+    width: 20px;
+	border: 2px #0068C9 solid;
+	border-radius: 2px !important;
+	-moz-appearance:none !important;
+	-webkit-appearance:none !important;
+	-o-appearance:none !important;
 }

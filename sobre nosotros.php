@@ -4,16 +4,16 @@
 <div class="container" id="hero-sobre-nosotros">
 	<div class="row justify-content-center py-4">
 		<div class=" col-8 col-md-5 d-flex justify-content-center" style="flex-direction: column;">
-			<h1 class="text-cloudworks px-2">
+			<h1 class="text-cloudworks px-2 montserrat-bold">
 				Sobre <br>
 				nosotros
 			</h1>
 			<div class="row mt-1 mt-md-5 ps-4 ps-md-0">
 				<div class="col-6 col-md-6 p-0 p-md-3">
-					<img src="images/connaxis-clean.png" class="w-75" alt="">
+					<img src="images/PNG-CWS.png" class="w-75" alt="">
 				</div>
 				<div class="col-6 col-md-6 p-0 p-md-3">
-					<img src="images/PNG-CWS.png" class="w-75" alt="">
+					<img src="images/connaxis-clean.png" class="w-75" alt="">
 				</div>
 			</div>
 		</div>
@@ -25,31 +25,40 @@
 <div class="px-4">
 	<hr>
 </div>
-<div class="container lato-regular fw-bold my-5" id="section-caracteristicas">
+<div class="container lato-regular my-5" id="section-caracteristicas">
 	<div class="row justify-content-center">
 		<div class="col-md-3 px-2">
-			<h3 class="fs-2 montserrat-bold text-center"> <span class="number">+10</span> <br> AÑOS</h3>
+			<h3 class="fs-2 montserrat-bold text-center fw-bold"> <span class="number">+10</span> <br> AÑOS</h3>
 			<p class="text-center">Inpulsando innovación <br>y transformación digital.</p>
 		</div>
 		<div class="col-md-4 px-4 text-center">
 			<i class="fas fa-users fa-5x mb-3"></i>
-			<p>Perfiles multidisciplinarios de analistas de negocios digitales, business intelligence, desarrolladores de las ultimas tecnologías, marketing automation, consultores de Blockchain.</p>
+			<p class="d-none d-md-block">Perfiles multidisciplinarios de analistas de negocios digitales, business intelligence, desarrolladores de las últimas tecnologías, marketing automation, consultores de Blockchain.</p>
+			<p class="d-block d-md-none">
+				Perfiles multidisciplinarios de analistas de
+				desarrolladores de las últimas tecnologìas
+				marketing automation, consultores de Blockchain.
+			</p>
 		</div>
-		<div class="col-md-3 px-2">
-			<h3 class="fs-2 montserrat-bold text-center"><span class="number">6</span><br> Países</h3>
-			<p class="text-center">Tenemos oficinas en Argentina, Bolivia, España y Holanda.</p>
+		<div class="col-md-3 px-2 ">
+			<h3 class="fs-2 montserrat-bold text-center fw-bold"><span class="number">6</span><br> Países</h3>
+			<p class="text-center">Tenemos operaciones en Argentina, Mexico, Bolivia, España, Holanda y Colombia.</p>
 		</div>
 	</div>
+</div>
+
+<div class="px-4">
+	<hr>
 </div>
 
 <div class="container-fluid my-5" id="section-porque-trabajar">
 	<div class="row justify-content-end align-items-center">
 		<div class="col-md-4 text-center text-md-start">
-			<h3 class="montserrat fs-2 fw-bold text-cloudworks">
+			<h3 class="montserrat fs-2 fw-bold text-cloudworks mb-0 mb-md-4">
 				¿Por qué trabajar <br>	
 				con nosotros?
 			</h3>
-			<p class="lato-light fs-3" style="font-weight: 500">Nos enfocamos a crear un ambiente de
+			<p class="lato-light  px-4 px-md-1" style="font-weight: 500">Nos enfocamos a crear un ambiente de
 			trabajo propicio para mejores resultados.</p>
 		</div>
 		<div class="col-md-7">
@@ -156,5 +165,43 @@
 			</p>
 		</div>
 	</div>
+</div>
+<div class="container mb-3" id="section-carreras">
+	<div class="row">		
+		<div class="col-md-6">
+			<h3>Carreras</h3>
+			En Cloudworks estamos en un proceso de crecimiento y nos gustaría conocerte.
+			<br>
+			Los perfiles que necesitamos para esta etapa la organización están relacionados con Ventas, Desarrollo Web, Marketing, Diseño y Comunicación. Pero si es para otra área de negocios estamos encantados de escuchar de vos y poder conocernos.
+			<br>
+			¿Qué jugadores nos gustan? Aquellos que son emprendedores, que se dedican a superarse de forma constante y eligen desafios que los motiven. Tambien nos agrada que sientan pasión por el arte, los deportes, los hobbies, viajar, comer rico y ver unas pelis de Owen Wilson.
+		</div>
+		<div class="col-md-6">
+			<form action="" class="border border-2 border-cloudworks px-5 py-3">
+				<h4>Envianos tu CV</h4>
+
+				<label for="" class="d-block w-100">Nombre</label>
+				<input type="text" class="d-block w-100 input-text mb-2">
+
+				<label for="" class="d-block w-100">Apellido</label>
+				<input type="text"class="d-block w-100 input-text mb-2">
+
+				<label for="" class="d-block w-100">Correo Electronico</label>
+				<input type="email"class="d-block w-100 input-text mb-2">
+
+				<label for="" class="d-block w-100">Posicion Buscada</label>
+				<input type="text" class="d-block w-100 input-text mb-2">
+
+				<label for="" class="d-block w-100">Información adicional</label>
+				<textarea class="d-block w-100 input-text mb-2"></textarea>
+
+				<label for="">Cargá tu CV</label> <input type="file">
+				<label for="">Otros documentos</label> <input type="file">
+
+
+			</form>
+		</div>
+	</div>	
+
 </div>
 <?php require_once("footer.html");?>

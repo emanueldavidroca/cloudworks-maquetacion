@@ -1,5 +1,8 @@
 /*RESPONSIVE*/
 @media (max-width:768px){
+	.navbar .navbar-brand img{
+		height: 40px !important;
+	}
 	#section-carousel {
 		padding: 0px;
 	}
@@ -21,12 +24,14 @@
     }
     #section-carousel .carousel-caption .title-md span{
     	display: none;
+    	line-height: 20px;
     }
     #section-carousel .carousel-caption .title-md{
-    	font-weight: 
+    	line-height: 35px;
     }
     #section-carousel .carousel-caption .title-md:before{
     	content: "Creamos sitios";
+    	display: block;
     }
     #section-carousel .carousel-caption .title-md:after{
     	content: "web y apps";
@@ -166,8 +171,8 @@
 		height: 50px !important;
 	}
 	#hero-sobre-nosotros h1{
-        font-size:3.5rem !important;
-        line-height: 2.8rem !important;
+        font-size:3.2rem !important;
+        line-height: 2.6rem !important;
         margin-bottom: 20px;
         padding-left: 10px;
     }
@@ -186,6 +191,10 @@
     }
     #section-porque-trabajar .bg-cloudworks{
     	min-height: initial !important;
+    }
+    #section-porque-trabajar p{
+    	font-size: 20px;
+    	line-height: 25px;
     }
     #section-partner .p-desktop{
     	font-size:1.1rem !important;
